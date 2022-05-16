@@ -41,7 +41,7 @@ while True:
         break
     elif choice == 2:
         while True:
-        # 人力计算
+            # 人力计算
             project_size = float(input('*人力计算|-项目大小：'))
             work_hours = float(input('*工时计算|-工时数量：'))
             if work_hours == 0:
